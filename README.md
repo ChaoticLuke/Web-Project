@@ -1,4 +1,5 @@
 # Web-Project
 Group project website for wessex footwear
 
-yo am i in the right fucking spot?
+Figma Link: https://www.figma.com/file/ezv5YkwEATThC5woKLdXsS/Industry-placement-website?type=design&node-id=0%3A1&t=iKNBU5zRdNn563Ag-1
+
