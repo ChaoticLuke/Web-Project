@@ -10,3 +10,8 @@ Figma Link: https://www.figma.com/file/ezv5YkwEATThC5woKLdXsS/Industry-placement
 - Contact us
 - All products
 - Fully adaptable from mobile to PC
+
+## What is holding us up
+- Waiting for product images
+- finding and deciding valid framework
+  
