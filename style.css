@@ -8,3 +8,8 @@ section{
   height:100vh;
   position:relative;
 }
+
+body{
+  font-size: 100%;
+  font-family: Arial;
+}
