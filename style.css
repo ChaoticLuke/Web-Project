@@ -1,1 +1,10 @@
+html{
+  scroll-behavior: smooth;
+}
 
+section{
+  width: 100%;
+  float:left;
+  height:100vh;
+  position:relative;
+}
