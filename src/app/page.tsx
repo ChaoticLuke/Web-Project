@@ -6,7 +6,6 @@ export default function Home() {
       <nav>
         <a href="/about"> About page</a>
       </nav>
-      
     </div>
   )
 }

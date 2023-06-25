@@ -1,7 +1,13 @@
 import './globals.css'
-import { Inter } from 'next/font/google'
+import { DM_Sans} from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+
+const DM = DM_Sans({
+  weight: ["400"],
+  subsets: ["latin"],
+  fallback: ["system-ui"],
+  variable: "--font-DM_Sans",
+})
 
 export const metadata = {
   title: 'NIGHTMARE NIGHTMARE NIGHTMARE',
@@ -14,8 +20,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className="bg-white">
+      <body className={'${DM.className}'}>{children}</body>
     </html>
   )
 }
