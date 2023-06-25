@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import './globals.css'
 import { DM_Sans} from 'next/font/google'
 
@@ -20,8 +21,19 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className="bg-white">
-      <body className={'${DM.className}'}>{children}</body>
+    <html lang="en" className={'${DM.className}'}>
+     
+      <body className="bg-white mx-auto">
+        <header className="flex justify-between items-center text-4xl px-10 pb-2">
+          <Link href="/">Wessex Footwear</Link>
+          <div className="flex items-center gap-10 text-2xl">
+            <Link href="/about">About us</Link>
+            <p>Third text</p>
+          </div>
+
+        </header>
+        {children}
+      </body>
     </html>
   )
 }
