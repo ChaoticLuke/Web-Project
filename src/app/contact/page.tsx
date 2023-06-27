@@ -1,6 +1,6 @@
 import Image from "next/image" 
 
-export default function About() {
+export default function Contact() {
     return (
         <div>
             <Image className='flex block mt-24 ml-10 mr-32 float-right' src="PLACEHOLDER.svg" alt="dash2" width={500} height={1000}/>
