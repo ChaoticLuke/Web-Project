@@ -1,5 +1,5 @@
 import Image from 'next/image'
-export default function About() {
+export default function Contactus() {
     return (
         <div className="sans">
             <Image className='flex mt-24 ml-10 mr-32 float-right font-bold' src="PLACEHOLDER.svg" alt="dash2" width={500} height={1000}/>
