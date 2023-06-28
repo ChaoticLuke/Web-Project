@@ -1,11 +1,25 @@
+import Image from 'next/image'
 export default function About() {
     return (
-        <div>
-            <h1 className="flex justify-between items-center text-5xl mt-20 mb-1 ml-6 font-medium px-10 pb-2"> About us - </h1>
+        <div className="sans">
+            <Image className='flex mt-24 ml-10 mr-32 float-right font-bold' src="PLACEHOLDER.svg" alt="dash2" width={500} height={1000}/>
+            <h1 className="flex justify-between items-center text-6xl mt-28 mb-1 ml-8 font-medium px-8 pb-2 sans font-bold"> Contact Us - </h1>
             <div>
-                <p className="flex justify-between items-center text-3xl mt-10 mb-1 ml-10 font-normal px-10 pb-2"> What if idk i told you that we might, in fact, bare with me with this one, its quite a lot to take on, no actually alot to take in, im sorry my grammer seems to be incorrect- if we in fact, perchance, sold slippers. </p>
+                <p className="flex justify-between items-center text-4xl  mb-1 ml-8 font-normal px-10 pb-2"> Intrested? Let's talk. </p>
             </div>
-        </div>
-
+                <div>
+                    <span className="inline-flex items-center mt-5">
+                        <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
+                        <span className="flex justify-between items-center text-3xl font-normal ml-5"> Buisness Email - Slipper@gmail.com</span>
+                    </span>
+                </div>
+                <div>
+                    <span className="inline-flex items-center mt-5">
+                        <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="phone_icon.svg" alt="dash2" width={40} height={40}/>
+                        <span className="flex justify-between items-center text-3xl font-normal ml-5"> Phone Number - +44 1234 5678</span>
+                    </span>
+                </div>
+           <Image className='flex bottom-0 ' src="about_wave.svg" alt="dash2" width={800} height={50}/>
+         </div>
     )
 }
