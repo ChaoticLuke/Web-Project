@@ -1,4 +1,6 @@
 import Link from 'next/link'
+import Image from 'next/image'
+
 import './globals.css'
 import { DM_Sans} from 'next/font/google'
 
