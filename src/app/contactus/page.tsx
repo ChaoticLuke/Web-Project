@@ -11,13 +11,13 @@ export default function Contactus() {
                 <div>
                     <span className="inline-flex items-center mt-5">
                         <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
-                        <span className="flex justify-between items-center text-3xl font-normal ml-5">Buisness Email - Slipper@gmail.com</span>
+                        <span className="flex justify-between items-center text-3xl font-normal ml-5">Buisness Email - wessexfootwear@btinternet.com</span>
                     </span>
                 </div>
                 <div>
                     <span className="inline-flex items-center mt-5">
                         <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="phone_icon.svg" alt="dash2" width={40} height={40}/>
-                        <span className="flex justify-between items-center text-3xl font-normal ml-5">Phone Number - +44 1234 5678</span>
+                        <span className="flex justify-between items-center text-3xl font-normal ml-5">Phone Number - +44 01278723495</span>
                     </span>
                 </div>
            <Image className='flex bottom-0 ' src="about_wave.svg" alt="dash2" width={800} height={50}/>
