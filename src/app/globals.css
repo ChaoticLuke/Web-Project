@@ -16,11 +16,8 @@
     }
   }
 
-  @layer components {
-    .boxedback {
-       background-color: #D9D9D9;
-       padding-top: 1rem;
-       color: grey;
-       box-shadow: 0 0 6px 0px;
-    }
+@layer components {
+  .back {
+    background-color: #D9D9D9;
   }
+}
