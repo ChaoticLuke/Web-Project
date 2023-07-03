@@ -5,14 +5,12 @@ export default function Contactus() {
         <div className="sans">
             <Image className='flex mt-30 ml-8 mr-32 float-right font-bold' src="PLACEHOLDER.svg" alt="dash2" width={500} height={1000}/>
             <div className='ml-10'>
-              <h1 className="flex justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8 pb-2 sans">Contact Us -</h1>
-              <div>
-                <p className="flex justify-between items-center text-4xl  mb-1 font-normal px-10 pb-2">Interested? Let&apos;s talk.</p>
-              </div>
+              <h1 className="justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8 pb-2">Contact Us <span className='ml-3 font-bold text-green-700 '>-</span></h1>
+              <p className="justify-between items-center text-4xl  mb-1 font-normal px-10 pb-2">Interested?<span className='ml-3 font-medium '>Let&apos;s talk.</span></p>
               <div>
                 <span className="inline-flex items-center mt-7">
-                    <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
-                    <span className="flex justify-between items-center text-3xl font-normal ml-5">Business email - wessexfootwear@btinternet.com</span>
+                    <Image className='snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
+                    <span className="justify-between text-3xl font-normal ml-5">Business email - wessexfootwear@btinternet.com</span>
                 </span>
               </div>
               <div>
