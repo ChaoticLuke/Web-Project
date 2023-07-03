@@ -4,7 +4,9 @@
 
 @layer base {
     html {
-      font-family: DM Sans
+      font-family: DM Sans;
+      grid-template-columns: auto 0px; 
+      scroll-behavior: smooth;
     }
   }
 
@@ -16,8 +18,16 @@
     }
   }
 
+.btn {
+    @apply rounded-full font-bold uppercase py-3 px-32 cursor-pointer tracking-wider
+}
+
+.btn2 {
+  @apply rounded-full font-bold py-1 px-4 cursor-pointer
+}
+
 @layer components {
-  .back {
-    background-color: #D9D9D9;
+  .top {
+    grid-template-columns: auto auto;
   }
 }

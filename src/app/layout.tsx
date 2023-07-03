@@ -31,6 +31,7 @@ export default function RootLayout({
           <div className="flex items-center gap-10 mt-1 font-normal sans text-2xl">
             <Link href="/about">About</Link>
             <Link href="/contactus">Contact Us</Link>
+            <Link href="/allproducts">All Products</Link>
           </div>
         </header>
         {children}
