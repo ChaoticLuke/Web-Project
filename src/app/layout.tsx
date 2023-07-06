@@ -24,14 +24,14 @@ export default function RootLayout({
   return (
     <html lang="en" className={'${DM.className}'}>
       <body className="bg-white mx-auto sans">
-        <header className=" justify-between flex items-center bg-white text-3xl font-medium px-10 pb-2 border border-t-0 border-r-0 border-l-0 border-b-2 fixed top-0 w-full">
-          <div className='mt-1 text-lg sm:text-3xl sans font-medium'>
+        <header className="justify-between flex items-center bg-white px-10 pb-1 sm:pb-2 border border-t-0 border-r-0 border-l-0 border-b-2 fixed top-0 w-full">
+          <div className='mt-1 text-xl sm:text-3xl sans font-medium'>
             <Link href="/">Wessex Footwear</Link>
           </div>
-          <div className="flex items-center gap-1.5 sm:gap-10 mt-1 font-normal sans text-lg md:text-1xl sm:text-2xl">
+          <div className="flex items-center gap-10 mt-1 font-normal sans text-xl sm:text-2xl">
             <Link href="/about">About</Link>
             <Link href="/contactus">Contact Us</Link>
-            <Link href="/allproducts">All Items</Link>
+            <Link href="/allproducts">All items</Link>
           </div>
         </header>
         {children}
