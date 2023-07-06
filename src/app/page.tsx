@@ -31,7 +31,7 @@ export default function Home() {
         <h1 className='text-4xl font-bold mb-5'>See all products</h1>
         <a href="/allproducts" className='btn border text-2xl bg-green-600 border-4 border-gray-700'>click here</a>
       </div>
-      <div className=' sans font-medium justify-between flex items-center bg-gray-300 text-2xl font-medium px-10 pb-2 border bottom-0 w-full'>
+      <div className=' sans justify-between flex items-center bg-gray-300 text-2xl font-medium px-10 pb-2 border bottom-0 w-full'>
         <a href="#" className="top btn2 mt-2 text-xl bg-green-600 border-2 border-gray-700">Go back to the top <span className='ml-2 font-bold text-green-900 '>^</span></a>
       </div>
      </div> 
