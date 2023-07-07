@@ -19,7 +19,7 @@
   }
 
 .btn {
-    @apply rounded-full font-bold uppercase py-3 px-32 cursor-pointer tracking-wider
+    @apply rounded-full font-bold uppercase cursor-pointer tracking-wider
 }
 
 .btn2 {
