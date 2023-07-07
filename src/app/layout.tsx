@@ -13,7 +13,7 @@ const DM = DM_Sans({
 
 export const metadata = {
   title: 'Wessex footware',
-  description: 'The website for wessex footware',
+  description: 'The website for wessex footware (insane)',
 }
 
 export default function RootLayout({
