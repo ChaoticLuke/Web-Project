@@ -22,13 +22,13 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className={'${DM.className}'}>
+    <html lang="en">
       <body className="bg-white mx-auto sans">
         <header className="justify-between flex items-center bg-white pb-1 sm:pb-2 border border-t-0 border-r-0 border-l-0 border-b-2 fixed top-0 w-full">
           <div className='mt-1 text-xl sm:text-3xl px-3 sm:px-10 sans font-medium float-left'>
             <Link href="/">Wessex Footwear</Link>
           </div>
-          <div className="flex sm:items-center px-3 sm:px-10 gap-1 sm:gap-10 font-normal sans text-lg sm:text-2xl">
+          <div className=" mt-1 flex sm:items-center px-3 sm:px-10 gap-1 sm:gap-10 font-normal sans text-lg sm:text-2xl">
             <Link href="/about">About</Link>
             <Link href="/contactus">Contact Us</Link>
             <Link href="/allproducts">All items</Link>
