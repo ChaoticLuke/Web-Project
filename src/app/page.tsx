@@ -1,4 +1,7 @@
 import Image from 'next/image'
+import "react-responsive-carousel/lib/styles/carousel.min.css"
+import { Carousel } from 'react-responsive-carousel'
+import './globals.css'
 
 export default function Home() {
   return (
@@ -48,7 +51,6 @@ export default function Home() {
             <a href="#" className="top btn2 mt-2 text-xl bg-green-600 border-2 border-gray-700">Go back to the top <span className='ml-2 font-bold text-green-900 '>^</span></a>
           </div>
         </div>
-
 
      </div> 
     </div> 
