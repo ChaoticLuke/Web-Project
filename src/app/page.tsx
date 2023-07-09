@@ -4,8 +4,11 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Image src="Wave.svg" alt="wave" width={1920} height={1080}/>
-
+        <div className=''>
+          <Image className='' src="Wave-main.svg" alt="wave" width={1920} height={1080}/>
+        </div>
+        
+      
          <div className=' m-0 lg:m-10 mt-10 bg-gray-200 border-8 border-green-700 '>
         <Image className='float-none lg:float-right mt-3 lg:m-4 ' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
           <h1 className="text-6xl mt-10 sm:mt-24 mb-1 ml-1 font-light px-8 text-center sm:text-left">Look at my</h1>

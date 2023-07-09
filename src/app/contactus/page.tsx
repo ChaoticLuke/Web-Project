@@ -20,7 +20,7 @@ export default function Contactus() {
                 </span>
                </div>
              </div>
-           <Image className='flex bottom-0 ' src="about_wave.svg" alt="dash2" width={800} height={50}/>
+           <Image className='object-contain' src="about_wave.svg" alt="dash2" width={800} height={50}/>
          </div>             
     )
 }
