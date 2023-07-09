@@ -1,10 +1,10 @@
 import Image from 'next/image'
- 
+import {Carousel} from 'react-responsive-carousel'
 export default function Home() {
   return (
     <div>
       <div>
-        <div className=''>
+        <div className='backgoundOmage'>
           <Image className='' src="Wave-main.svg" alt="wave" width={1920} height={1080}/>
         </div>
         

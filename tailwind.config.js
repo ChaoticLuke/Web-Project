@@ -7,9 +7,13 @@ module.exports = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-      fontFamily: {
-        dm_sans: ["var(--font-DM_Sans)"]
-      }
-  },
-  plugins: [],
-}
+    extend: {
+        fontFamily: {
+          dm_sans: ["var(--font-DM_Sans)"]
+        },
+        backgroundImage: { 
+          'wave': "url('/public/Wave-main.svg')"
+        }
+      },
+    }
+  }
