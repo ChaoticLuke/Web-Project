@@ -1,13 +1,20 @@
 import Image from 'next/image'
-import {Carousel} from 'react-responsive-carousel'
+
 export default function Home() {
   return (
     <div>
       <div>
-        <div className='backgoundOmage'>
-          <Image className='' src="Wave-main.svg" alt="wave" width={1920} height={1080}/>
+        <div className='bg-[url("/Wave-main.svg")] pt-20 bg-local bg-center bg-cover bg-no-repeat max-w-full'>
+          <div className='pl-10'>
+            <h1 className="text-7xl lg:text-8xl mb-1 pt-20 ml-1 font-bold px-8 text-center sm:text-left">Hello!</h1>
+            <h1 className="text-6xl mb-1 ml-1 font-light px-8 text-center sm:text-left">Welcome to Wessex Footware</h1>
+            <p className='text-5xl ml-1 pt-20 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
+            <div className='justify-between flex items-center font-medium px-10 pb-2 bottom-0 w-full'>
+              <a href="/allproducts" className="top btn3 mt-5 mb-96 text-2xl bg-yellow-500 border-4 border-green-600">View all</a>
+            </div>
+            <p className=''>&nbsp;</p>
+            </div>
         </div>
-        
       
          <div className=' m-0 lg:m-10 mt-10 bg-gray-200 border-8 border-green-700 '>
         <Image className='float-none lg:float-right mt-3 lg:m-4 ' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
