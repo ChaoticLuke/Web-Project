@@ -16,26 +16,27 @@ export default function Home() {
             </div>
         </div>
       
-         <div className=' m-0 lg:m-10 mt-10 bg-gray-200 border-8 border-green-700 '>
-        <Image className='float-none lg:float-right mt-3 lg:m-4 ' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
-          <h1 className="text-6xl mt-10 sm:mt-24 mb-1 ml-1 font-light px-8 text-center sm:text-left">Look at my</h1>
-          <h1 className="text-7xl lg:text-8xl mb-1 ml-1 font-bold px-8 text-center sm:text-left">Slippers</h1>
-          <p className="text-left text-3xl mt-14 mb-16 ml-1  font-light px-8">The slippers from the compant that exists in the real world 
-          <p className='mt-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing 
-          <p>elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>Nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p></p>          
-         </div>
+                 <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-green-700 flex'>
+          <div>
+            <h1 className="text-6xl mb-1 ml-1 font-light px-8 pt-10 text-center sm:text-left">Look at my<br/>
+            <span className="text-7xl lg:text-8xl mb-1 font-bold text-center sm:text-left">Slippers</span></h1>
+            <p className="text-left text-3xl mt-14 ml-1 font-light px-8">The slippers from the compant that exists in the real world</p>
+            <p className='m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. <br/>
+            Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>          
+          </div>
+            <Image className='float-none lg:float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={700} height={400}/></div>
 
-        <div className=' m-0 lg:m-10 mt-10 bg-gray-200 border-8 border-yellow-600  '>
-        <Image className='float-none lg:float-right mt-3 lg:m-4 ' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
-          <h1 className="text-6xl mt-10 sm:mt-24 mb-1 ml-1 font-light px-8 text-center sm:text-left">Look at my</h1>
-          <h1 className="text-7xl lg:text-8xl mb-1 ml-1 font-bold px-8 text-center sm:text-left">Slippers</h1>
-          <p className="text-left text-3xl mt-14 mb-16 ml-1  font-light px-8">The slippers from the compant that exists in the real world 
-          <p className='mt-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing 
-          <p>elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.</p>Nostrud exercitation ullamco laboris nisi ut aliquip
-                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in. Bingle</p></p>          
+         <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-yellow-600 flex'>
+          <div>
+            <h1 className="text-6xl mb-1 ml-1 font-light px-8 pt-10 text-center sm:text-left">Look at my<br/>
+            <span className="text-7xl lg:text-8xl mb-1 font-bold text-center sm:text-left">Slippers</span></h1>
+            <p className="text-left text-3xl mt-14 ml-1 font-light px-8">The slippers from the compant that exists in the real world</p>
+            <p className='m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. <br/>
+            Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>          
+          </div>
+            <Image className='float-none lg:float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
          </div>
 
         <div className=''>
