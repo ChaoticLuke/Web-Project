@@ -12,8 +12,8 @@ const DM = DM_Sans({
 })
 
 export const metadata = {
-  title: 'Wessex footware',
-  description: 'The website for wessex footware (insane)',
+  title: 'Wessex footwear',
+  description: 'The website for wessex footwear (insane)',
 }
 
 export default function RootLayout({

@@ -7,16 +7,16 @@ export default function Home() {
         <div className='bg-[url("/Wave-main.svg")] pt-20 bg-local bg-center bg-cover bg-no-repeat max-w-full'>
           <div className='pl-10'>
             <h1 className="text-7xl lg:text-8xl mb-1 pt-20 ml-1 font-bold px-8 text-center sm:text-left">Hello!</h1>
-            <h1 className="text-6xl mb-1 ml-1 font-light px-8 text-center sm:text-left">Welcome to Wessex Footware</h1>
+            <h1 className="text-6xl mb-1 ml-1 font-light px-8 text-center sm:text-left">Welcome to Wessex Footwear</h1>
             <p className='text-5xl ml-1 pt-20 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
             <div className='justify-between flex items-center font-medium px-10 pb-2 bottom-0 w-full'>
               <a href="/allproducts" className="top btn3 mt-5 mb-96 text-2xl bg-yellow-500 border-4 border-green-600">View all</a>
             </div>
-            <p className=''>&nbsp;</p>
+            <br/>
             </div>
         </div>
       
-                 <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-green-700 flex'>
+        <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-green-700 flex'>
           <div>
             <h1 className="text-6xl mb-1 ml-1 font-light px-8 pt-10 text-center sm:text-left">Look at my<br/>
             <span className="text-7xl lg:text-8xl mb-1 font-bold text-center sm:text-left">Slippers</span></h1>
@@ -25,7 +25,8 @@ export default function Home() {
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. <br/>
             Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>          
           </div>
-            <Image className='float-none lg:float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={700} height={400}/></div>
+            <Image className='float-none lg:float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
+          </div>
 
          <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-yellow-600 flex'>
           <div>
