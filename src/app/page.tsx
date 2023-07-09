@@ -1,13 +1,12 @@
 import Image from 'next/image'
-import {Carousel} from 'react-responsive-carousel'
+
 export default function Home() {
   return (
     <div>
       <div>
-        <div className='backgoundmage'>
+        <div className='backgoundOmage'>
           <Image className='' src="Wave-main.svg" alt="wave" width={1920} height={1080}/>
         </div>
-        
       
          <div className=' m-0 lg:m-10 mt-10 bg-gray-200 border-8 border-green-700 '>
         <Image className='float-none lg:float-right mt-3 lg:m-4 ' src="placeholder_about.svg" alt="dash2" width={700} height={400}/>
