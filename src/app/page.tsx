@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <div>
-        <div className='backgoundOmage'>
+        <div className='backgoundmage'>
           <Image className='' src="Wave-main.svg" alt="wave" width={1920} height={1080}/>
         </div>
         
