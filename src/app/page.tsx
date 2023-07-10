@@ -9,7 +9,7 @@ export default function Home() {
       <div>
         <div className='bg-[url("/Wave-main.svg")] pt-20 bg-local bg-center bg-cover bg-no-repeat max-w-full'>
           <div className='pl-10'>
-            <h1 className="text-7xl lg:text-8xl mb-1 pt-20 ml-1 font-bold px-8 text-center sm:text-left">Helo!</h1>
+            <h1 className="text-7xl lg:text-8xl mb-1 pt-20 ml-1 font-bold px-8 text-center sm:text-left">Hewo!</h1>
             <h1 className="text-6xl mb-1 ml-1 font-light px-8 text-center sm:text-left">Welcome to Wessex Footwear</h1>
             <p className='text-5xl ml-1 pt-20 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
             <div className='justify-between flex items-center font-medium px-10 pb-2 bottom-0 w-full'>
