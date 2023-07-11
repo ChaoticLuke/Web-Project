@@ -20,15 +20,15 @@
   }
 
 .btn {
-    @apply rounded-full font-bold uppercase cursor-pointer tracking-wider
+    @apply rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl
 }
 
 .btn2 {
-  @apply rounded-full font-bold py-1 px-4 cursor-pointer
+  @apply rounded-full font-bold py-1 px-4 cursor-pointer shadow-2xl
 }
 
 .btn3 {
-  @apply rounded-full font-bold py-2 px-12 cursor-pointer tracking-wide uppercase
+  @apply rounded-full font-bold py-2 px-12 cursor-pointer tracking-wide uppercase shadow-2xl
 }
 
 @layer components {
