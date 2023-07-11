@@ -23,12 +23,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={'${DM.className}'}>
-      <body className="bg-white mx-auto sans">
+      <body className="bg-white mx-auto">
         <header className=" justify-between flex items-center bg-white text-3xl font-medium px-10 pb-2 border border-t-0 border-r-0 border-l-0 border-b-2 fixed top-0 w-full">
-          <div className='mt-1 sans font-medium'>
+          <div className='mt-1 font-medium'>
             <Link href="/">Wessex Footwear</Link>
           </div>
-          <div className="flex items-center gap-10 mt-1 font-normal sans text-2xl">
+          <div className="flex items-center gap-10 mt-1 font-normal text-2xl">
             <Link href="/allproducts">All Products</Link>
             <Link href="/contactus">Contact Us</Link>
             <Link href="/about">About</Link>
