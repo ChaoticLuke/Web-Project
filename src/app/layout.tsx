@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import Image from 'next/image'
-
 import './globals.css'
 import { DM_Sans} from "next/font/google"
 
@@ -12,8 +11,8 @@ const DM = DM_Sans({
 })
 
 export const metadata = {
-  title: 'Wessex footware',
-  description: 'The website for wessex footware (insane)',
+  title: 'Wessex footwear',
+  description: 'The website for wessex footwear (insane)',
 }
 
 export default function RootLayout({
