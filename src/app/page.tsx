@@ -18,28 +18,27 @@ export default function Home() {
       
         <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-green-700 flex'>
           <div>
-          <Image className='float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={400} height={400}/>
+          <Image className='float-right flex my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={600} height={400}/>
             <h1 className="text-5xl sm:text-6xl mb-1 ml-1 mt-10 font-light px-8 pt-10 text-center sm:text-left">Look at my<br/>
             <span className="text-7xl lg:text-8xl mb-1 font-bold text-center sm:text-left">Slippers</span></h1>
-            <p className="text-left text-3xl mt-14 ml-1 font-light px-8">The slippers from the compant that exists in the real world</p>
-            <p className='m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
+            <p className="text-center sm:text-left text-3xl sm:mt-14 ml-1 font-light px-8 mt-5">The slippers from the compant that exists in the real world</p>
+            <p className='text-center sm:text-left m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. <br/>
             Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>  
           </div>
-            
           </div>
 
-         <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-yellow-600 flex'>
+          <div className='lg:m-5 mt-5 bg-gray-200 border-8 rounded-lg border-yellow-600 flex'>
           <div>
-          <Image className='float-right my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={400} height={400}/>
+          <Image className='float-right flex my-5 lg:m-4 p-5' src="placeholder_about.svg" alt="dash2" width={600} height={400}/>
             <h1 className="text-5xl sm:text-6xl mb-1 ml-1 mt-10 font-light px-8 pt-10 text-center sm:text-left">Look at my<br/>
             <span className="text-7xl lg:text-8xl mb-1 font-bold text-center sm:text-left">Slippers</span></h1>
-            <p className="text-left text-3xl mt-14 ml-1 font-light px-8">The slippers from the compant that exists in the real world</p>
-            <p className='m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
+            <p className="text-center sm:text-left text-3xl sm:mt-14 ml-1 font-light px-8 mt-5">The slippers from the compant that exists in the real world</p>
+            <p className='text-center sm:text-left m-10 text-2xl'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing
             elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis. <br/>
-            Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>          
+            Nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irurvcbvbvcgfdgdge dolor in reprehenderit in. Bingle</p>  
           </div>
-         </div>
+          </div>
 
         <div className='mt-14'>
           <div className='text-center mb-20'>
