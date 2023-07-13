@@ -61,12 +61,12 @@ const staticProducts = [
 export default function Allproducts() {
     return (
         <div className="mt-20 ">
-            <h1 className="justify-between items-center text-6xl mt-24 mb-1 ml-1 font-bold px-8 pb-2">All products <span className='ml-3 font-bold text-green-700 '>-</span></h1>
-            <div className="max-w-2xl mx-auto py-16 px-16 lg:max-w-7xl">
-                <div className="grid grid-cols-2 sm:grid-cols-3 gap-y-10 gap-x-6 border">
+            <h1 className="justify-between items-center text-5xl lg:text-6xl sm:mt-24 mb-1 ml-1 font-bold px-2 sm:px-8 pb-2">All products<span className='ml-3 font-bold text-green-700 '>-</span></h1>
+            <div className="max-w-2xl mx-auto py-10 lg:max-w-7xl">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
                   {staticProducts.map((Products) => (
-                    <a key={Products.id} href={Products.href} className="group">
-                        <div className="bg-gray-300 ">
+                    <a key={Products.id} href={Products.href} className="group shadow border-2 border-gray-300">
+                        <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
                                 <img className="w-full aspect-w-1 "
                                     src={Products.imageSrc}
