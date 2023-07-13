@@ -17,7 +17,7 @@ const staticProducts = [
         price: '£20',
         desc: '4 sizes available',
         imageSrc: '/slipper_one.jpeg',
-        imageAlt: 'The non slip slipper'
+        imageAlt: 'The non slip slipper',
     },
     {
         id: 9,
