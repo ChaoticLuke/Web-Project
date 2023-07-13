@@ -12,7 +12,7 @@ const staticProducts = [
     },
     {
         id: 2,
-        name: 'Non stick slipper',
+        name: 'Non-slip slipper',
         href: '#',
         price: '£20',
         desc: '4 sizes available',
@@ -20,7 +20,34 @@ const staticProducts = [
         imageAlt: 'The non slip slipper'
     },
     {
-        id: 3,
+        id: 9,
+        name: 'Shrew',
+        href: '#',
+        price: '£10',
+        desc: '1 sizes available',
+        imageSrc: '/the.jpeg',
+        imageAlt: 'Found in dirt'
+    },
+    {
+        id: 4,
+        name: 'Slipper-ies Slipper',
+        href: '#',
+        price: '£150',
+        desc: '3 sizes available',
+        imageSrc: '/slipper_one.jpeg',
+        imageAlt: 'The slippery slipper'
+    },
+    {
+        id: 5,
+        name: 'Sheo?',
+        href: '#',
+        price: '£20',
+        desc: '3 sizes available',
+        imageSrc: '/slipper_one.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 6,
         name: 'Sheo',
         href: '#',
         price: '£1',
@@ -29,31 +56,22 @@ const staticProducts = [
         imageAlt: 'Found in dumpster'
     },
     {
-        id: 4,
-        name: 'The forth one',
+        id: 7,
+        name: 'Foot container',
         href: '#',
         price: '£4',
-        desc: '4 sizes available',
+        desc: '(Foot not included)',
         imageSrc: '/slipper_one.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
-        id: 5,
-        name: 'Crazy?',
+        id: 8,
+        name: 'Garf',
         href: '#',
-        price: '£Iwas',
-        desc: 'crazy once',
-        imageSrc: '/slipper_one.jpeg',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/wow.gif',
         imageAlt: 'The non slip slipper'
-    },
-    {
-        id: 6,
-        name: 'Shrew',
-        href: '#',
-        price: '£10',
-        desc: '1 sizes available',
-        imageSrc: '/the.jpeg',
-        imageAlt: 'Found in dirt'
     },
 ]
 

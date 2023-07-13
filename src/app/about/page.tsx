@@ -6,7 +6,7 @@ export default function About() {
             <div>
               <h1 className="justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8">About Us <span className='ml-3 font-bold text-mossygreen '>-</span></h1>
             </div>
-            <Image className='flex snap-center snap-right float-right ml-10 mr-20' src="placeholder_about.svg" alt="dash2" width={700} height={40}/>
+            <Image className='flex snap-center snap-right float-right ml-10 mr-20' src="placeholder_about.svg" alt="dash2" width={500} height={40}/>
             <div>
                 <span className="flex ml-10 items-center text-3xl mt-10 ">
                     <p> <span className='font-medium mr-3'>Hello! We are the slipper slipe</span>This is wessex footwares about page. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
