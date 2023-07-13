@@ -4,7 +4,7 @@ export default function About() {
     return (
         <div className="ml-10">
             <div>
-              <h1 className="justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8">About Us <span className='ml-3 font-bold text-green-700 '>-</span></h1>
+              <h1 className="justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8">About Us <span className='ml-3 font-bold text-mossygreen '>-</span></h1>
             </div>
             <Image className='flex snap-center snap-right float-right ml-10 mr-20' src="placeholder_about.svg" alt="dash2" width={700} height={40}/>
             <div>
