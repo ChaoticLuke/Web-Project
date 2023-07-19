@@ -1,7 +1,7 @@
-# Wessex Footwear Project
+# Wessex Footwear Project 
+[![Static Badge](https://img.shields.io/badge/Releases-Link-fefes?style=plastic&link=https%3A%2F%2Fgithub.com%2FChaoticLuke%2FWeb-Project%2Freleases%2Ftag%2FReleases)](https://github.com/ChaoticLuke/Web-Project/releases/tag/Releases)
+
 Group project website for Wessex footwear
-[![GitHub Release](https://img.shields.io/github/release/dani-garcia/vaultwarden.svg)](https://github.com/ChaoticLuke/Web-Project/releases/tag/Releases)
-[![Build](https://github.com/dani-garcia/vaultwarden/actions/workflows/build.yml/badge.svg)](https://github.com/ChaoticLuke/Web-Project/actions)
 ## Links
 Figma Link: https://www.figma.com/file/ezv5YkwEATThC5woKLdXsS/Industry-placement-website?type=design&node-id=0%3A1&t=iKNBU5zRdNn563Ag-1
 
