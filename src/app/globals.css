@@ -20,7 +20,7 @@
   }
 
 .btn {
-    @apply rounded-full font-bold uppercase cursor-pointer tracking-wider
+    @apply rounded-2xl font-bold uppercase cursor-pointer tracking-wider
 }
 
 .btn2 {
