@@ -3,8 +3,8 @@
 export default function Error({ error, reset }) {
     return(
         <div>
-            whoopsie {error.message}
-            <button onClick={() => reset()}>Try again fuckhead</button>
+            {error.message}
+            <button onClick={() => reset()}>Try again</button>
         </div>
     )
 }
