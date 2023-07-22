@@ -20,11 +20,7 @@
   }
 
 .btn {
-<<<<<<< HEAD
-    @apply rounded-2xl font-bold uppercase cursor-pointer tracking-wider
-=======
     @apply rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl
->>>>>>> e368337bab58533bbf1dcb97101585e8ca9e196e
 }
 
 .btn2 {
