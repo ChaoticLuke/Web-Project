@@ -9,11 +9,14 @@ export default function About() {
                 <Image className='flex snap-center snap-right float-right ml-10 mr-20' src="placeholder_about.svg" alt="dash2" width={500} height={40}/>
             <div>
                 <span className="flex ml-10 items-center text-3xl mt-10 ">
-                    <p> <span className='font-medium mr-3'>Hello! We are the slipper slipe</span>This is wessex footwares about page. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur!
-                    <p className='mt-6'>This is a paragraph. Lorem ipsum dolor sit amet.<p className='mt-6'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.<p className='mt-10'>This is a paragraph. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p></p></p></p>
+                    <p>Wessex Footwear Ltd. is a footwear manufacturer based in the West Country specialising in the construction of 
+                        both moccasin and turn slippers and shoes. 
+                    <br></br>
+                    Established in May 2000 with a workforce who have been involed in the industry over the past 32 years in both
+                        manufacturing and sourcing. 
+                    Wessex Footwear Ltd. and their team have years of experience dealing with multiple retailers throught the uk 
+                        and together with wholesalers, mail order houses and major distributers </p> 
+                    <p className='bold text-5xl'>The right product, at the right time, at the right price </p>
                 </span>
             </div>
          </div>        
