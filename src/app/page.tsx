@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl mb-1 ml-1 pt-3 sm:pt-0 font-light px-8 text-center sm:text-left">Welcome to Wessex Footwear</h1>
             <p className='text-4xl sm:text-5xl ml-1 pt-6 sm:pt-20 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
             <div className='sm:justify-between flex content-center justify-center items-center font-medium px-10 pb-2 bottom-0 w-full'>
-              <a href="/allproducts" className="top btn3 mt-5 mb-96 text-2xl bg-peach border-4 border-mossgreen">View all</a>
+              <a href="/showcase" className="top btn3 mt-5 mb-96 text-2xl bg-peach border-4 border-mossgreen">View all</a>
             </div>
             <br/>
             </div>
@@ -43,7 +43,7 @@ export default function Home() {
         <div className='mt-14'>
           <div className='text-center mb-20'>
             <h1 className='text-3xl sm:text-4xl font-bold mb-5 '>See all products</h1>
-            <a href="/allproducts" className='btn p-3 pr-16 pl-16 sm:pr-20 sm:pl-20 text-2xl bg-mossgreen border-4 border-gray-700'>click here</a>
+            <a href="/showcase" className='btn p-3 pr-16 pl-16 sm:pr-20 sm:pl-20 text-2xl bg-mossgreen border-4 border-gray-700'>click here</a>
           </div>
           <div className='sm:justify-between justify-center flex items-center bg-gray-300 text-2xl font-medium px-10 pb-2 border bottom-0 w-full'>
           <a href="#" className="top btn2 mt-2 text-xl bg-mossgreen border-2 border-gray-700">Go back to the top <span className='ml-2 font-bold text-green-900 '>^</span></a>
