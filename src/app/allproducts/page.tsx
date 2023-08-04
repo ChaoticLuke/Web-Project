@@ -43,7 +43,7 @@ const staticProducts = [
         href: '#',
         price: '£20',
         desc: '3 sizes available',
-        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_6.jpeg',
         imageAlt: 'The non slip slipper'
     },
     {
@@ -61,7 +61,7 @@ const staticProducts = [
         href: '#',
         price: '£4',
         desc: '(Foot not included)',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_4.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
@@ -70,7 +70,7 @@ const staticProducts = [
         href: '#',
         price: '50p',
         desc: '1 size avalible',
-        imageSrc: '/wow.gif',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_5.jpeg',
         imageAlt: 'The non slip slipper'
     },
 ]
