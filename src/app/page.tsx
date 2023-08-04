@@ -42,7 +42,7 @@ export default function Home() {
 
         <div className='mt-14'>
           <div className='text-center mb-20'>
-            <h1 className='text-3xl sm:text-4xl font-bold mb-5 '>See all products</h1>
+            <h1 className='text-3xl sm:text-4xl font-bold mb-5 '>See our products</h1>
             <a href="/showcase" className='btn p-3 pr-16 pl-16 sm:pr-20 sm:pl-20 text-2xl bg-mossgreen border-4 border-gray-700'>click here</a>
           </div>
           <div className='sm:justify-between justify-center flex items-center bg-gray-300 text-2xl font-medium px-10 pb-2 border bottom-0 w-full'>
