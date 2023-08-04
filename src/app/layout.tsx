@@ -12,7 +12,7 @@ const DM = DM_Sans({
 
 export const metadata = {
   title: 'Wessex footwear',
-  description: 'The website for wessex footwear (insane)',
+  description: 'Wessex footwear',
 }
 
 export default function RootLayout({
@@ -28,7 +28,7 @@ export default function RootLayout({
             <Link href="/">Wessex Footwear</Link>
           </div>
           <div className="mt-0.5 sm:mt-2 text-sm flex sm:items-center px-1 sm:px-10 gap-1 sm:gap-10 font-normal sm:text-2xl">
-            <Link href="/allproducts">All Products</Link>
+            <Link href="/showcase">Showcase</Link>
             <Link href="/item">Item</Link>
             <Link href="/contactus">Contact Us</Link>
             <Link href="/about">About</Link>
