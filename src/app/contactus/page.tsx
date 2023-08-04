@@ -14,7 +14,7 @@ export default function Contactus() {
             </div>
             <div className='ml-10'>
               <h1 className="justify-between items-center text-5xl sm:text-4xl mt-28 mb-1 ml-1 font-bold px-8 pb-32">Contact<span className='ml-3 font-bold text-mossgreen '>-</span></h1>
-              <p className="justify-between items-center text-4xl sm:text-2xl mb-1 font-normal px-10 pb-2">Interested?<span className='ml-3 font-medium '>Let&apos;s talk.</span></p>
+              <p className="justify-between items-center text-4xl sm:text-2xl mb-1 font-normal px-10 pb-2">Interested?<span className='ml-3 font-medium '>Lets talk.</span></p>
               <div>
                 <span className="inline-flex items-center mt-10">
                     <Image className='snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
