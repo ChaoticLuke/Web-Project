@@ -87,7 +87,7 @@ export default function Allproducts() {
                     <a key={Products.id} href={Products.href} className="group shadow border-2 border-gray-300">
                         <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
-                                <img className="w-full aspect-w-1 "
+                                <img className="w-full aspect-w-1 object-cover "
                                     src={Products.imageSrc}
                                     alt={Products.imageAlt}
                                 />
