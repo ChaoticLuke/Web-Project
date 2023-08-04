@@ -7,7 +7,7 @@ const staticProducts = [
         href: '#',
         price: '£15',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpg',
         imageAlt: 'The slippery slipper'
     },
     {
