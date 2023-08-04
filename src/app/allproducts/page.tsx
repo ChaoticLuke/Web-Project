@@ -16,7 +16,7 @@ const staticProducts = [
         href: '#',
         price: '£20',
         desc: '4 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39_1.jpeg',
         imageAlt: 'The non slip slipper',
     },
     {
