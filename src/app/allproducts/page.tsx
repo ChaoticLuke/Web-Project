@@ -70,9 +70,73 @@ const staticProducts = [
         href: '#',
         price: '50p',
         desc: '1 size avalible',
+        imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_7.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 9,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_5.jpeg',
         imageAlt: 'The non slip slipper'
     },
+    {
+        id: 10,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_8.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 11,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_9.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 12,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 13,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41_1.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 14,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41_2.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 15,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    
 ]
 
 
