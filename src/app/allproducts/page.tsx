@@ -25,7 +25,7 @@ const staticProducts = [
         href: '#',
         price: '£10',
         desc: '1 sizes available',
-        imageSrc: '/the.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39.jpeg',
         imageAlt: 'Found in dirt'
     },
     {
@@ -34,7 +34,7 @@ const staticProducts = [
         href: '#',
         price: '£150',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_1.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
@@ -43,7 +43,7 @@ const staticProducts = [
         href: '#',
         price: '£20',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
         imageAlt: 'The non slip slipper'
     },
     {
@@ -52,7 +52,7 @@ const staticProducts = [
         href: '#',
         price: '£1',
         desc: '1 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
         imageAlt: 'Found in dumpster'
     },
     {
