@@ -3,75 +3,75 @@
 const staticProducts = [
     {
         id: 1,
-        name: 'Slippery Slipper',
+        //name: 'Slippery Slipper',
         href: '#',
-        price: '£15',
-        desc: '3 sizes available',
+        ////price: '£15',
+        ////desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
-        imageAlt: 'The slippery slipper'
+        ////imageAlt: 'The slippery slipper'
     },
     {
         id: 2,
-        name: 'Non-slip slipper',
+        //name: 'Non-slip slipper',
         href: '#',
-        price: '£20',
-        desc: '4 sizes available',
+        ////price: '£20',
+        ////desc: '4 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39_1.jpeg',
-        imageAlt: 'The non slip slipper',
+        //imageAlt: 'The non slip slipper',
     },
     {
         id: 9,
-        name: 'Shrew',
+        //name: 'Shrew',
         href: '#',
-        price: '£10',
-        desc: '1 sizes available',
+        //price: '£10',
+        //desc: '1 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39.jpeg',
-        imageAlt: 'Found in dirt'
+        //imageAlt: 'Found in dirt'
     },
     {
         id: 4,
-        name: 'Slipper-ies Slipper',
+        //name: 'Slipper-ies Slipper',
         href: '#',
-        price: '£150',
-        desc: '3 sizes available',
+        //price: '£150',
+        //desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_1.jpeg',
-        imageAlt: 'The slippery slipper'
+        //imageAlt: 'The slippery slipper'
     },
     {
         id: 5,
-        name: 'Sheo?',
+        //name: 'Sheo?',
         href: '#',
-        price: '£20',
-        desc: '3 sizes available',
+        //price: '£20',
+        //desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
-        imageAlt: 'The non slip slipper'
+        //imageAlt: 'The non slip slipper'
     },
     {
         id: 6,
-        name: 'Sheo',
+        //name: 'Sheo',
         href: '#',
-        price: '£1',
-        desc: '1 sizes available',
+        //price: '£1',
+        //desc: '1 sizes available',
         imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
-        imageAlt: 'Found in dumpster'
+        //imageAlt: 'Found in dumpster'
     },
     {
         id: 7,
-        name: 'Foot container',
+        //name: 'Foot container',
         href: '#',
-        price: '£4',
-        desc: '(Foot not included)',
+        //price: '£4',
+        //desc: '(Foot not included)',
         imageSrc: '/slipper_one.jpeg',
-        imageAlt: 'The slippery slipper'
+        //imageAlt: 'The slippery slipper'
     },
     {
         id: 8,
-        name: 'Garf',
+        //name: 'Garf',
         href: '#',
-        price: '50p',
-        desc: '1 size avalible',
+        //price: '50p',
+        //desc: '1 size avalible',
         imageSrc: '/wow.gif',
-        imageAlt: 'The non slip slipper'
+        //imageAlt: 'The non slip slipper'
     },
 ]
 
@@ -84,7 +84,7 @@ export default function Allproducts() {
             <div className="max-w-2xl mx-auto py-10 lg:max-w-7xl">
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
                   {staticProducts.map((Products) => (
-                    <a key={Products.id} href={Products.href} className="group shadow border-2 border-gray-300">
+                    <a key={Products.id} href={Products.href} className="group shadow border-4 border-peach">
                         <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
                                 <img className="w-full aspect-w-1 "
