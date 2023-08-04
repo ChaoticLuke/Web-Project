@@ -52,7 +52,7 @@ const staticProducts = [
         href: '#',
         //price: '£1',
         //desc: '1 sizes available',
-        imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
         imageAlt: 'Found in dumpster'
     },
 ]
@@ -72,6 +72,8 @@ export default function Showcase() {
                                 <Image className="w-full aspect-w-1 "
                                     src={Products.imageSrc}
                                     alt={Products.imageAlt}
+                                    width={500}
+                                    height={500}
                                 />
                             </div>   
                         </div>
