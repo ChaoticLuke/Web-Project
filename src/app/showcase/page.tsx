@@ -1,23 +1,23 @@
-
+import Image from 'next/image'
 
 const staticProducts = [
     {
         id: 1,
         //name: 'Slippery Slipper',
         href: '#',
-        ////price: '£15',
-        ////desc: '3 sizes available',
+        //price: '£15',
+        //desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
-        ////imageAlt: 'The slippery slipper'
+        imageAlt: 'The slippery slipper'
     },
     {
         id: 2,
         //name: 'Non-slip slipper',
         href: '#',
-        ////price: '£20',
-        ////desc: '4 sizes available',
+        //price: '£20',
+        //desc: '4 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39_1.jpeg',
-        //imageAlt: 'The non slip slipper',
+        imageAlt: 'The non slip slipper',
     },
     {
         id: 9,
@@ -26,7 +26,7 @@ const staticProducts = [
         //price: '£10',
         //desc: '1 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39.jpeg',
-        //imageAlt: 'Found in dirt'
+        imageAlt: 'Found in dirt'
     },
     {
         id: 4,
@@ -35,7 +35,7 @@ const staticProducts = [
         //price: '£150',
         //desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_1.jpeg',
-        //imageAlt: 'The slippery slipper'
+        imageAlt: 'The slippery slipper'
     },
     {
         id: 5,
@@ -44,7 +44,7 @@ const staticProducts = [
         //price: '£20',
         //desc: '3 sizes available',
         imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
-        //imageAlt: 'The non slip slipper'
+        imageAlt: 'The non slip slipper'
     },
     {
         id: 6,
@@ -53,7 +53,7 @@ const staticProducts = [
         //price: '£1',
         //desc: '1 sizes available',
         imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
-        //imageAlt: 'Found in dumpster'
+        imageAlt: 'Found in dumpster'
     },
 ]
 
@@ -69,15 +69,11 @@ export default function Showcase() {
                     <a key={Products.id} href={Products.href} className="group shadow border-8 border-peach rounded-xl">
                         <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
-                                <img className="w-full aspect-w-1 "
+                                <Image className="w-full aspect-w-1 "
                                     src={Products.imageSrc}
                                     alt={Products.imageAlt}
                                 />
                             </div>   
-                            <div className="pl-5 px-3">
-                                <h1>{Products.name} <span>{Products.price}</span></h1>
-                                <p className="opacity-80 flex">{Products.desc}</p>
-                            </div>
                         </div>
                     </a>
                 ))}
