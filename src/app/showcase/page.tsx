@@ -66,7 +66,7 @@ export default function Showcase() {
             <div className="max-w-2xl mx-auto py-10 lg:max-w-7xl">
                 <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
                   {staticProducts.map((Products) => (
-                    <a key={Products.id} href={Products.href} className="group shadow border-4 border-peach">
+                    <a key={Products.id} href={Products.href} className="group shadow border-8 border-peach rounded-xl">
                         <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
                                 <img className="w-full aspect-w-1 "
