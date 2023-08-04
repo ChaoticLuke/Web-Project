@@ -7,7 +7,7 @@ const staticProducts = [
         href: '#',
         price: '£15',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_2.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
@@ -16,7 +16,7 @@ const staticProducts = [
         href: '#',
         price: '£20',
         desc: '4 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39_1.jpeg',
         imageAlt: 'The non slip slipper',
     },
     {
@@ -25,7 +25,7 @@ const staticProducts = [
         href: '#',
         price: '£10',
         desc: '1 sizes available',
-        imageSrc: '/the.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.39.jpeg',
         imageAlt: 'Found in dirt'
     },
     {
@@ -34,7 +34,7 @@ const staticProducts = [
         href: '#',
         price: '£150',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_1.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
@@ -43,7 +43,7 @@ const staticProducts = [
         href: '#',
         price: '£20',
         desc: '3 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_6.jpeg',
         imageAlt: 'The non slip slipper'
     },
     {
@@ -52,7 +52,7 @@ const staticProducts = [
         href: '#',
         price: '£1',
         desc: '1 sizes available',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_3.jpeg',
         imageAlt: 'Found in dumpster'
     },
     {
@@ -61,7 +61,7 @@ const staticProducts = [
         href: '#',
         price: '£4',
         desc: '(Foot not included)',
-        imageSrc: '/slipper_one.jpeg',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_4.jpeg',
         imageAlt: 'The slippery slipper'
     },
     {
@@ -70,9 +70,73 @@ const staticProducts = [
         href: '#',
         price: '50p',
         desc: '1 size avalible',
-        imageSrc: '/wow.gif',
+        imageSrc: 'WhatsApp_Image_2023-07-18_at_12.42.40_7.jpeg',
         imageAlt: 'The non slip slipper'
     },
+    {
+        id: 9,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_5.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 10,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_8.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 11,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40_9.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 12,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.40.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 13,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41_1.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 14,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41_2.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    {
+        id: 15,
+        name: 'Garf',
+        href: '#',
+        price: '50p',
+        desc: '1 size avalible',
+        imageSrc: '/WhatsApp_Image_2023-07-18_at_12.42.41.jpeg',
+        imageAlt: 'The non slip slipper'
+    },
+    
 ]
 
 
@@ -87,7 +151,7 @@ export default function Allproducts() {
                     <a key={Products.id} href={Products.href} className="group shadow border-2 border-gray-300">
                         <div className="bg-gray-200 ">
                             <div className="aspect-w-1 aspect-h-1 overflow-hidden">
-                                <img className="w-full aspect-w-1 "
+                                <img className="w-full aspect-w-1 object-cover "
                                     src={Products.imageSrc}
                                     alt={Products.imageAlt}
                                 />

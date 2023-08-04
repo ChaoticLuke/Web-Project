@@ -16,7 +16,6 @@ export default function About() {
                         manufacturing and sourcing. 
                     Wessex Footwear Ltd. and their team have years of experience dealing with multiple retailers throught the uk 
                         and together with wholesalers, mail order houses and major distributers </p> 
-                    <p className='bold text-5xl'>The right product, at the right time, at the right price </p>
                 </span>
             </div>
          </div>        
