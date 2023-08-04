@@ -10,7 +10,7 @@ export default function Home() {
             <h1 className="text-5xl sm:text-6xl mb-1 ml-1 pt-3 sm:pt-0 font-light px-8 text-center sm:text-left">Welcome to Wessex Footwear</h1>
             <p className='text-4xl sm:text-5xl ml-1 pt-6 sm:pt-20 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
             <div className='sm:justify-between flex content-center justify-center items-center font-medium px-10 pb-2 bottom-0 w-full'>
-              <a href="/allproducts" className="top btn3 mt-5 mb-96 text-2xl bg-peach border-4 border-mossgreen">View all</a>
+              <a href="/showcase" className="top btn3 mt-5 mb-96 text-2xl bg-peach border-4 border-mossgreen">View all</a>
             </div>
             <br/>
             </div>
