@@ -19,16 +19,13 @@ module.exports = {
         moistgreen: '#468484',
         padawongreen: '#3D837B',
       },
-      fontFamily: {
+        fontFamily: {
           dm_sans: ["var(--font-DM_Sans)"]
-      },
-      backgroundImage: { 
+        },
+        backgroundImage: { 
           'wave': "url('/public/Wave-main.svg')"
         
-      },
-      screens: {
-        tablet: '640px',
-      }
+        }
       },
     }
   }
