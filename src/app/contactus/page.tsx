@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Contactus() {
     return (
         <div>
-            <div className='google-map'>
+            <div className='google-map mapname'>
             <iframe 
               src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d625.6760995511692!2d-2.8742742050425307!3d51.150801998800844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1689070444942!5m2!1sen!2suk" 
               width="600" 
@@ -17,8 +17,8 @@ export default function Contactus() {
               <p className="justify-between items-center text-4xl sm:text-2xl mb-1 font-normal px-10 pb-2">Interested?<span className='ml-3 font-medium '>Lets talk.</span></p>
               <div>
                 <span className="inline-flex items-center mt-10">
-                    <Image className='snap-center snap-right float-right rounded-full ml-10 ' src="email_icon.svg" alt="dash2" width={40} height={40}/>
-                    <span className="justify-between text-3xl font-normal ml-5">wessexfootwear@btinternet.com</span>
+                    <Image className='snap-center snap-right float-right rounded-full ml-3 sm:ml-10 w-7 sm:w-10 h-7 sm:h-10' src="email_icon.svg" alt="dash2" width={0} height={0}/>
+                    <span className="justify-between text-xl sm:text-3xl font-normal ml-5">wessexfootwear@btinternet.com</span>
                 </span>
               </div>
               <div>
@@ -28,7 +28,7 @@ export default function Contactus() {
                 </span>
                </div>
              </div>
-           <Image className='bottom-full' src="about_wave.svg" alt="dash2" width={800} height={50}/>
+           <Image className='bottom-full sm:w-60 sm:h-60' src="about_wave.svg" alt="dash2" width={0} height={0}/>
          </div>             
     )
 }
