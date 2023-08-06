@@ -64,7 +64,7 @@ export default function Showcase() {
             <h1 className="justify-between items-center text-5xl lg:text-6xl sm:mt-24 mb-1 ml-1 font-bold px-2 sm:px-8 pb-2">Showcase<span className='ml-3 font-bold text-mossgreen '>-</span></h1>
             <h1 className="justify-between items-center text-1xl sm:text-2xl ml-1 px-2 sm:px-8 pb-2">Look through a selection of what we offer. Please contact for more info on each.</h1>
             <div className="max-w-2xl mx-auto py-10 lg:max-w-7xl">
-                <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-y-10 gap-x-8 mx-3">
                   {staticProducts.map((Products) => (
                     <a key={Products.id} className="group shadow border-8 border-peach rounded-xl">
                         <div className="bg-gray-200 ">

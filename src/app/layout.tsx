@@ -27,7 +27,7 @@ export default function RootLayout({
           <div className='mt-0.5 sm:mt-2 text-sm sm:text-3xl px-1 font-medium float-left'>
             <Link href="/">Wessex Footwear</Link>
           </div>
-          <div className="mt-0.5 sm:mt-2 text-sm flex sm:items-center px-1 sm:px-10 gap-1 sm:gap-10 font-normal sm:text-2xl">
+          <div className="mt-0.5 sm:mt-2 text-sm flex sm:items-center px-1 sm:px-1 gap-5 md:gap-10 font-normal sm:text-2xl">
             <Link href="/showcase">Showcase</Link>
             <Link href="/contactus">Contact Us</Link>
             <Link href="/about">About</Link>
