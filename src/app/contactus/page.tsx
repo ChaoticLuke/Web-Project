@@ -11,18 +11,17 @@ export default function Contactus() {
               </iframe>            
             </div>
             <div className='ml-10'>
-              <h1 className="justify-between items-center text-5xl sm:text-4xl mt-28 mb-1 ml-1 font-bold px-8 pb-32">Contact<span className='ml-3 font-bold text-mossgreen '>-</span></h1>
-              <p className="justify-between items-center text-4xl sm:text-2xl mb-1 font-normal px-10 pb-2">Interested?<span className='ml-3 font-medium '>Lets talk.</span></p>
+              <h1 className="justify-between items-center text-5xl sm:text-4xl mt-28 sm:mt-28 mb-1 ml-1 font-bold px-2 sm:px-8 pb-1 sm:pb-2">Contacts<span className='ml-3 font-bold text-mossgreen '>-</span></h1>             
               <div>
                 <span className="inline-flex items-center mt-10">
-                    <Image className='snap-center snap-right float-right rounded-full ml-3 sm:ml-10 w-7 sm:w-10 h-7 sm:h-10' src="email_icon.svg" alt="dash2" width={0} height={0}/>
+                    <Image className='snap-center snap-right float-left sm:float-right rounded-full ml-3 sm:ml-10 w-7 sm:w-10 h-7 sm:h-10' src="email_icon.svg" alt="dash2" width={0} height={0}/>
                     <span className="justify-between text-xl sm:text-3xl font-normal ml-5">wessexfootwear@btinternet.com</span>
                 </span>
               </div>
               <div>
                 <span className="inline-flex items-center mt-8 absolute">
-                    <Image className='flex snap-center snap-right float-right rounded-full ml-10 ' src="phone_icon.svg" alt="dash2" width={40} height={40}/>
-                    <span className="flex justify-between items-center text-3xl font-normal ml-5">+44 1278 723495</span>
+                    <Image className='flex snap-center snap-right float-right rounded-full ml-2 sm:ml-10 ml-3  w-7 sm:w-10 h-7 sm:h-10' src="phone_icon.svg" alt="dash2" width={0} height={0}/>
+                    <span className="flex justify-between items-center text-xl sm:text-3xl font-normal ml-5">+44 1278 723495</span>
                 </span>
                </div>
              </div>
