@@ -11,7 +11,7 @@ const staticProducts = [
     {
         id: 2,
         href: '#',
-        imageSrc: '/Sheo_Velcro_2.jpeg',
+        imageSrc: '/Sheo_2_Velcro.jpeg',
         imageAlt: 'A pair of small slipper, brown with velcro',
     },
     {
