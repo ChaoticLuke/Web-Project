@@ -10,14 +10,14 @@ module.exports = {
     
     extend: {
       colors: {
-        transparent: 'transparent',
-        current: 'currentColor',
-        hotsauceorange: '#EB826B',
+        light: '#363636',
         peach: '#F4AC84',
-        yellowgreen: '#C3CAA7',
+        lpeach: '#F3C4AA',
+        lightgreen: '#D8E8E6',
         mossgreen: '#64A49D',
-        moistgreen: '#468484',
-        padawongreen: '#3D837B',
+        lmossgreen: '#66ACA4',
+        ltmossgreen: '#76BFB6',
+        darkgreen: '#3D837B',
       },
         fontFamily: {
           dm_sans: ["var(--font-DM_Sans)"]

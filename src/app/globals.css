@@ -19,6 +19,31 @@
     }
   }
 
+.clearfix:after { 
+    content: " ";
+    display: block; 
+    height: 0; 
+    clear: both;
+}
+
+.backmain {
+  background: rgb(226,226,226);
+  background: linear-gradient(16deg, rgb(194, 194, 194) 0%, rgb(245, 245, 245) 91%);
+}
+
+.bottomnav {
+  background: rgb(190, 190, 190);
+  background: linear-gradient(16deg, rgb(170, 170, 170) 0%, rgb(235, 235, 235) 91%);
+}
+
+.underlinemain {
+  text-decoration: #F4AC84 underline;
+}
+
+.underlinemain2 {
+  text-decoration: #64A49D underline;
+}
+
 .btn {
     @apply rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl
 }

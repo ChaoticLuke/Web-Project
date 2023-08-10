@@ -1,22 +1,26 @@
 import Image from 'next/image'
 
+//About page
 export default function About() {
     return (
-        <div className="ml-10">
+        <div className="md:ml-10">
             <div>
-              <h1 className="justify-between items-center text-6xl mt-28 mb-1 ml-1 font-bold px-8">About Us <span className='ml-3 font-bold text-mossgreen '>-</span></h1>
+                <h1 className="justify-between text-center md:text-left text-3xl md:text-6xl mt-20 md:mt-28 mb-1 font-bold md:ml-1 md:px-8">About us<span className='ml-3 font-bold text-mossgreen '> -</span></h1>     
             </div>
-                <Image className='flex snap-center snap-right float-right ml-10 mr-20' src="placeholder_about.svg" alt="dash2" width={500} height={40}/>
-            <div>
-                <span className="flex ml-10 items-center text-3xl mt-10 ">
-                    <p>Wessex Footwear Ltd. is a footwear manufacturer based in the West Country specialising in the construction of 
-                        both moccasin and turn slippers and shoes. 
-                    <br></br>
-                    Established in May 2000 with a workforce who have been involed in the industry over the past 32 years in both
-                        manufacturing and sourcing. 
-                    Wessex Footwear Ltd. and their team have years of experience dealing with multiple retailers throught the uk 
-                        and together with wholesalers, mail order houses and major distributers </p> 
-                </span>
+            <div className='m-10'>
+                {/* This image is used in the google maps, and is free to use for commerical use with no attribution required */}
+                <img className=' lg:float-right sm:ml-10 sm:mr-20 sm:w-3/5 lg:w-2/5 sm:shadow-lg border-8 border-mossgreen rounded-xl' src="https://c.pxhere.com/photos/8e/c2/shoe_wood_slipper-503623.jpg!d" alt="SheoIMG, Free Images In PxHere"></img>
+            </div>
+            <div className='m-10 text-center md:text-left text-2xl sm:text-4xl mt-10'>
+                <p className=''>
+                Wessex Footwear Ltd. is a footwear manufacturer based in the West Country specialising in the construction 
+                of both moccasin and turn slippers and shoes.</p> 
+                <br/>
+                <p className="text-xl sm:text-3xl">
+                Established in May 2000 with a workforce who have been involed in the industry over the past 32 years in both
+                manufacturing and sourcing. 
+                Wessex Footwear Ltd. and their team have years of experience dealing with multiple retailers throught the uk 
+                and together with wholesalers, mail order houses and major distributers.</p>
             </div>
          </div>        
     )
