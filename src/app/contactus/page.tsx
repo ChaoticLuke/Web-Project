@@ -13,14 +13,14 @@ export default function Contactus() {
             </iframe>            
           </div>    
 
-          <span className="inline-flex items-center mt-10 ml-5 sm:ml-10">
+          <span className="inline-flex items-center mt-10 ml-2 sm:ml-10">
             <Image className='snap-center snap-right float-left sm:float-right rounded-full ml-3 sm:ml-10 w-7 sm:w-10 h-7 sm:h-10' src="Contact_Email_Icon.svg" alt="dash2" width={0} height={0}/>
-            <p className="justify-between text-xl lg:text-3xl font-normal ml-2 sm:ml-5">wessexfootwear@btinternet.com</p>
+            <p className="justify-between text-lg lg:text-3xl font-normal ml-2 sm:ml-5">wessexfootwear@btinternet.com</p>
           </span>
           <div>
-            <span className="inline-flex items-center mt-8 absolute ml-5 sm:ml-10">
-              <Image className='flex snap-center snap-right float-right rounded-full ml-2 sm:ml-10 ml-3  w-7 sm:w-10 h-7 sm:h-10' src="Contact_Phone_Icon.svg" alt="dash2" width={0} height={0}/>
-              <span className="flex justify-between items-center text-xl lg:text-3xl font-normal ml-2 sm:ml-5">+44 1278 723495</span>
+            <span className="inline-flex items-center mt-8 absolute ml-2 sm:ml-10 sm:mb-20">
+              <Image className='flex snap-center snap-right float-right rounded-full sm:ml-10 ml-3 w-7 sm:w-10 h-7 sm:h-10' src="Contact_Phone_Icon.svg" alt="dash2" width={0} height={0}/>
+              <span className="flex justify-between items-center text-lg lg:text-3xl font-normal ml-2 sm:ml-5">+44 1278 723495</span>
             </span>
           </div>
            <Image className='absolute bottom-0 w-10/12 h-10/12 xl:w-3/5 xl:h-3/5' src="Wave_contact.svg" alt="dash2" width={0} height={0}/>

@@ -28,7 +28,7 @@
 
 .backmain {
   background: rgb(226,226,226);
-  background: linear-gradient(16deg, rgb(194, 194, 194) 0%, rgb(245, 245, 245) 91%);
+  background: linear-gradient(16deg, rgb(180, 180, 180) 0%, rgb(253, 253, 253) 91%);
 }
 
 .bottomnav {
@@ -60,4 +60,13 @@
   .top {
     grid-template-columns: auto auto;
   }
+}
+
+.backproj {
+  background-color: #FAFAFA;
+  transition: 1s;
+}
+
+.backproj:hover {
+  background-color: #e8ecff;
 }

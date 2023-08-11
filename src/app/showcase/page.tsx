@@ -56,13 +56,13 @@ const staticProducts = [
 export default function Showcase() {
     return (
         <div className="mt-20">
-            <h1 className="justify-between text-center md:text-left text-3xl md:text-6xl mt-10 md:mt-28 mb-1 font-bold md:ml-10 md:px-8">Showcase<span className='ml-3 font-bold text-mossgreen '> -</span></h1>     
-            <h1 className="justify-between text-center md:text-left text-1xl sm:text-2xl ml-10 mt-2 px-2 sm:px-8 pb-2 flex mr-5">Look through a selection of what we offer. Please contact for more products and infomation.</h1>
+            <h1 className="justify-between text-center md:text-left text-3xl md:text-6xl mt-10 md:mt-28 mb-1 font-bold ml-0 md:ml-10 md:px-8">Showcase<span className='ml-3 font-bold text-mossgreen '>-</span></h1>     
+            <h1 className="justify-between mx-auto text-center md:text-left text-1xl sm:text-2xl ml-0 md:ml-10 mt-2 px-5 sm:px-8 pb-2 flex md:mr-5">Look through a selection of what we offer. Please contact for more products and infomation.</h1>
             <div className="mx-auto py-10 max-w-screen-2xl">
-                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 gap-x-4 lg:gap-x-8 mx-10">
+                <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 gap-x-4 lg:gap-x-8 mx-3 md:mx-10">
                 {/* Every entry to the library gets looped with staticProducts.map. */}
                   {staticProducts.map((Products) => (
-                    <a key={Products.id} className="group shadow-lg border-8 border-mossgreen rounded-xl">
+                    <a key={Products.id} className="group shadow-lg border-4 md:border-8 border-mossgreen rounded-xl">
                         <div className="bg-gray-200">
                             <div className="aspect-w-1 overflow-hidden bg-mossgreen">
                                 <Image loading='lazy' className="w-full aspect-w-1 rounded-md"
