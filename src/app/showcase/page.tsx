@@ -78,7 +78,7 @@ export default function Showcase() {
                 </div>
             </div>
             <div className='sm:justify-between justify-center flex items-center bottomnav border-gray-200 text-2xl font-medium px-10 pb-2 border-t-2 border-r-0 border-l-0 border-b-0 bottom-0 w-full'>
-                <a href="#" className="top btn2 mt-2 text-xl bg-mossgreen hover:bg-lmossgreen hover:text-light border-2 border-gray-700 shadow-sl">Go back to the top <span className='ml-2 font-bold text-green-900 '>^</span></a>
+                <a href="#" className="top rounded-full font-bold py-1 px-4 cursor-pointer shadow-2xl mt-2 text-xl bg-mossgreen hover:bg-lmossgreen hover:text-light border-2 border-gray-700 shadow-sl">Go back to the top <span className='ml-2 font-bold text-green-900 '>^</span></a>
             </div>
         </div>             
     )

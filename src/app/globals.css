@@ -44,18 +44,6 @@
   text-decoration: #64A49D underline;
 }
 
-.btn {
-    @apply rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl
-}
-
-.btn2 {
-  @apply rounded-full font-bold py-1 px-4 cursor-pointer shadow-2xl
-}
-
-.btn3 {
-  @apply rounded-full font-bold py-2 px-12 cursor-pointer tracking-wide uppercase shadow-2xl
-}
-
 @layer components {
   .top {
     grid-template-columns: auto auto;

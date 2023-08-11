@@ -23,7 +23,7 @@ export default function Contactus() {
               <span className="flex justify-between items-center text-lg lg:text-3xl font-normal ml-2 sm:ml-5">+44 1278 723495</span>
             </span>
           </div>
-           <Image className='absolute bottom-0 w-10/12 h-10/12 xl:w-3/5 xl:h-3/5' src="Wave_contact.svg" alt="dash2" width={0} height={0}/>
+           <Image className='md:absolute bottom-0 w-10/12 h-10/12 xl:w-3/5 xl:h-3/5' src="Wave_contact.svg" alt="dash2" width={0} height={0}/>
          </div>             
     )
 }
