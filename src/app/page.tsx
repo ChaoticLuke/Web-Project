@@ -38,7 +38,7 @@ export default function Home() {
         <div className='mt-14 '>
           <div className='text-center mb-20'>
             <h1 className='text-3xl sm:text-4xl font-bold mb-5 '>See our products</h1>
-            <a href="/showcase" className='rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl p-2 pr-6 pl-6 sm:pr-20 sm:pl-20 text-2xl bg-mossgreen hover:bg-lmossgreen border-4 hover:text-light border-gray-700 focus:border-gray-500'>click here</a>
+            <a href="/showcase" className='rounded-full font-bold uppercase cursor-pointer tracking-wider shadow-2xl p-2 pr-6 pl-6 sm:pr-20 sm:pl-20 text-lg sm:text-2xl bg-mossgreen hover:bg-lmossgreen border-4 hover:text-light border-gray-700 focus:border-gray-500'>click here</a>
           </div>
           <div className='sm:justify-between justify-center flex items-center bottomnav border-gray-200 text-2xl font-medium px-10 pb-2 border-t-2 border-r-0 border-l-0 border-b-0 bottom-0 w-full'>
             <a href="#" className="top rounded-full font-bold py-1 px-4 cursor-pointer shadow-2xl mt-2 text-xl bg-mossgreen hover:bg-lmossgreen hover:text-light border-2 border-gray-700 shadow-sl">Go back to the top <span className='ml-2 font-bold text-darkgreen  '>^</span></a>

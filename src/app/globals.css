@@ -49,12 +49,3 @@
     grid-template-columns: auto auto;
   }
 }
-
-.backproj {
-  background-color: #FAFAFA;
-  transition: 1s;
-}
-
-.backproj:hover {
-  background-color: #e8ecff;
-}
