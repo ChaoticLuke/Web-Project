@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* Fonts */
 @layer base {
     html {
       font-family: DM_Sans;
@@ -19,6 +19,7 @@
     }
   }
 
+  /* This makes images floating in div's work inside the div and increase it's size instead of floating away. More of a band-aid solution.*/
 .clearfix:after { 
     content: " ";
     display: block; 
@@ -26,6 +27,7 @@
     clear: both;
 }
 
+/* Gradients for backgrounds */
 .backmain {
   background: rgb(226,226,226);
   background: linear-gradient(16deg, rgb(180, 180, 180) 0%, rgb(253, 253, 253) 91%);
@@ -36,6 +38,7 @@
   background: linear-gradient(16deg, rgb(170, 170, 170) 0%, rgb(235, 235, 235) 91%);
 }
 
+/* Underlines for the two main sections */
 .underlinemain {
   text-decoration: #F4AC84 underline;
 }
@@ -44,6 +47,7 @@
   text-decoration: #64A49D underline;
 }
 
+/* Grid */
 @layer components {
   .top {
     grid-template-columns: auto auto;
