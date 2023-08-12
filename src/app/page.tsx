@@ -30,7 +30,7 @@ export default function Home() {
             
             <h1 className="text-5xl lg:text-7xl font-bold text-center md:text-left md:ml-10 mt-12 lg:mt-20 underlinemain2">A workforce</h1>
             <p className="text-3xl sm:text-4xl font-normal text-center md:text-left mt-4 mb-10 md:ml-10">who have been involved in the industry over the past 32 years.</p>
-            <p className="text-center md:text-left text-2xl sm:text-3xl sm:mt-5 ml-1 font-light px-8 mt-5 mb-10">Learn more about us <a href="/showcase" className=' text-mossgreen hover:text-ltmossgreen'>here</a></p>
+            <p className="text-center md:text-left text-2xl sm:text-3xl sm:mt-5 ml-1 font-light px-8 mt-5 mb-10">Learn more about us <a href="/aboutus" className=' text-mossgreen hover:text-ltmossgreen'>here</a></p>
         </div>
 
 
