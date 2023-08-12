@@ -17,7 +17,7 @@ const staticProducts = [
     {
         id: 3,
         href: '#',
-        imageSrc: '/Sheo_3_MaxfluffSlipOns.jpeg',
+        imageSrc: '/Sheo_10_SortaSlipOns.jpeg',
         imageAlt: 'A pair of brown slipper, with fluff cuff'
     },
     {
