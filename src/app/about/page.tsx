@@ -9,7 +9,7 @@ export default function About() {
             </div>
             <div className='m-10'>
                 {/* This image is used in the google maps, and is free to use for commerical use with no attribution required */}
-                <img className=' lg:float-right sm:ml-10 sm:mr-20 sm:w-3/5 lg:w-2/5 sm:shadow-lg border-8 border-mossgreen rounded-xl' loading='lazy' src="\Sheo_9_GreySlipOns.jpeg" alt="Tan scuffs"></img>
+                <img className=' lg:float-right sm:ml-10 sm:mr-20 sm:w-3/5 lg:w-2/5 lg:h-2/5 sm:shadow-lg border-8 border-mossgreen rounded-xl' loading='lazy' src="\Sheo_9_GreySlipOns.jpeg" alt="Tan scuffs"></img>
             </div>
             <div className='m-10 text-center md:text-left text-2xl sm:text-4xl mt-10'>
                 <p className=''>
