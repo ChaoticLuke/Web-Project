@@ -6,7 +6,7 @@ const staticProducts = [
         id: 1,
         href: '#',
         imageSrc: '/Sheo_11_ManAtSheos.jpeg',
-        imageAlt: 'Slipper with 3 diffrent colours, dark blue, grey and scarlett'
+        imageAlt: 'Slipper with 3 diffrent colours, dark blue, grey and pink'
     },
     {
         id: 2,
@@ -18,7 +18,7 @@ const staticProducts = [
         id: 3,
         href: '#',
         imageSrc: '/Sheo_10_SortaSlipOns.jpeg',
-        imageAlt: 'A pair of brown slipper, with fluff cuff'
+        imageAlt: 'A pair of tan turn slippers'
     },
     {
         id: 4,

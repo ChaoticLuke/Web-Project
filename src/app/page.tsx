@@ -16,7 +16,7 @@ export default function Home() {
       
         <div className='lg:m-5 mt-5 backmain border-4 md:border-8 rounded-lg border-mossgreen clearfix'>
             <div className='p-4 md:p-0'>
-              <Image className='mx-auto md:float-right clearfix md:2/5 xl:h-1/3 md:w-4/12 xl:w-3/12 border-4 md:border-8 border-lmossgreen rounded-xl m-4 shadow-lg md:mr-16' src="/Image_M_1.jpeg" alt="Slipper with 3 diffrent colours, dark blue, grey and scarlett" width={500} height={500}/>
+              <Image className='mx-auto md:float-right clearfix md:2/5 xl:h-1/3 md:w-4/12 xl:w-3/12 border-4 md:border-8 border-lmossgreen rounded-xl m-4 shadow-lg md:mr-16' src="/Sheo_14_SlipperBoot.jpeg" alt="Grey boot" width={500} height={500}/>
             </div>
             <h1 className="text-5xl lg:text-7xl font-bold text-center md:text-left md:ml-10 mt-12 lg:mt-20 underlinemain">Specialising in</h1>
             <p className="text-3xl sm:text-4xl lg:text-5xl font-normal text-center md:text-left mt-4 mb-10 md:ml-10">Moccasins, Turn slippers and shoes</p>
@@ -25,7 +25,7 @@ export default function Home() {
 
         <div className='lg:m-5 mt-5 backmain border-4 md:border-8 rounded-lg border-peach clearfix'>
             <div className='p-4 md:p-0'>
-              <Image className='mx-auto md:float-right clearfix md:2/5 xl:h-1/3 md:w-4/12 xl:w-3/12 border-4 md:border-8 border-lpeach rounded-xl m-4 shadow-lg md:mr-16' src="/Image_M_2.jpeg" alt="Slipper with 3 diffrent colours, dark blue, grey and scarlett" width={500} height={500}/>
+              <Image className='mx-auto md:float-right clearfix md:2/5 xl:h-1/3 md:w-4/12 xl:w-3/12 border-4 md:border-8 border-lpeach rounded-xl m-4 shadow-lg md:mr-16' src="" alt="Slipper with 3 diffrent colours, dark blue, grey and scarlett" width={500} height={500}/>
             </div>
             
             <h1 className="text-5xl lg:text-7xl font-bold text-center md:text-left md:ml-10 mt-12 lg:mt-20 underlinemain2">A workforce</h1>
