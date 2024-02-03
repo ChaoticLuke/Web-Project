@@ -30,7 +30,7 @@
 /* Gradients for backgrounds */
 .backmain {
   background: rgb(226,226,226);
-  background: linear-gradient(16deg, rgb(180, 180, 180) 0%, rgb(253, 253, 253) 91%);
+  background: linear-gradient(16deg, rgb(206, 206, 206) 0%, rgb(235, 235, 235) 91%);
 }
 
 .bottomnav {
