@@ -62,15 +62,10 @@ export default function Showcase() {
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-10 gap-x-4 lg:gap-x-8 mx-3 md:mx-10">
                 {/* Every entry to the library gets looped with staticProducts.map. */}
                   {staticProducts.map((Products) => (
-                    <a key={Products.id} className="group shadow-lg border-4 md:border-8 border-mossgreen rounded-xl">
-                        <div className="bg-gray-200">
-                            <div className="aspect-w-1 overflow-hidden bg-mossgreen">
-                                <Image loading='lazy' className="w-full aspect-w-1 rounded-md"
-                                    src={Products.imageSrc}
-                                    alt={Products.imageAlt}
-                                    width={500}
-                                    height={500}
-                                />
+                    <a key={Products.id} className="group shadow-lg border-4 md:border-8 border-mossgreen rounded-xl object-contain">
+                        <div className="bg-gray-200 object-contain">
+                            <div className="aspect-w-1 overflow-hidden bg-mossgreen object-contain">
+                                <img src={Products.imageSrc} className='object-scale-down sheo_img'/>
                             </div>   
                         </div>
                     </a>

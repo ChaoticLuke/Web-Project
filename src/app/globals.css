@@ -53,3 +53,7 @@
     grid-template-columns: auto auto;
   }
 }
+
+.sheo_img {
+  object-fit: cover;
+}

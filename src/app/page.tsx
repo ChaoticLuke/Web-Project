@@ -7,7 +7,7 @@ export default function Home() {
         <div className='bg-[url("/Wave_main.svg")] h-full w-full pt-20 bg-center bg-cover bg-no-repeat sm:pl-10'>
             <h1 className="text-6xl sm:text-7xl lg:text-8xl mb-1 pt-20 ml-1 font-bold px-8 text-center sm:text-left">Hello!</h1>
             <h2 className="text-5xl sm:text-6xl mb-1 ml-1 pt-3 sm:pt-0 font-light px-8 text-center sm:text-left">Welcome to Wessex Footwear</h2>
-            <p className='text-4xl sm:text-5xl ml-1 pt-6 sm:pt-7 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers</p>
+            <p className='text-4xl sm:text-5xl ml-1 pt-6 sm:pt-7 font-light px-8 text-center sm:text-left'>We make high quality, handmade slippers for the past 32 years</p>
             <button className='sm:justify-between flex content-center justify-center items-center font-medium sm:mx-10 mb-96 mx-auto '>
               <a href="/showcase" className="top rounded-full font-bold py-2 px-12 cursor-pointer tracking-wide uppercase mt-5 text-2xl duration-75 delay-50 hover:text-light hover:bg-lpeach bg-peach border-4 border-mossgreen focus:border-ltmossgreen shadow-xl">View all</a>
             </button>
